@@ -76,6 +76,23 @@ Se algum teste falhar, o desenvolvedor recebe essa informação e pode corrigir 
 
 ---
 
+---
+
+## 📊 Comparação entre o processo manual e automatizado
+
+A tabela abaixo mostra como o GitHub Actions simplifica diversas etapas do desenvolvimento de software quando comparado ao processo realizado manualmente.
+
+| **Processo** | **Sem GitHub Actions** | **Com GitHub Actions** |
+|:------------|:-----------------------|:-----------------------|
+| Execução dos testes | Manual | Automática |
+| Verificação do código | Manual | Automática |
+| Deploy da aplicação | Manual | Automatizado |
+| Tempo de entrega | Maior | Menor |
+| Chance de erro | Alta | Reduzida |
+
+> **Observação:** Ao automatizar essas etapas, o GitHub Actions torna o desenvolvimento mais ágil, confiável e padronizado, permitindo que a equipe foque no desenvolvimento de novas funcionalidades em vez de tarefas repetitivas.
+
+---
 ## 🌍 Alguns exemplos de uso
 
 Hoje em dia muitas empresas utilizam o GitHub Actions para automatizar tarefas como:
