@@ -267,7 +267,12 @@ _(integrante 6)_
 
 ## 📝 Conclusão
 
-_(integrante 7)_
-O GitHub Actions transforma a automação de processos em algo acessível, poderoso e nativamente integrado ao fluxo de desenvolvimento. Seja para projetos open-source ou corporativos, ele oferece uma solução completa e moderna para CI/CD, reduzindo a complexidade e acelerando a entrega de software com qualidade e confiabilidade.
+GitHub Actions como ferramenta nativa do GitHub para automatizar tarefas no ciclo de desenvolvimento, como testes, compilações e deploys, acionadas por eventos (push, pull request, tag). Destaca a integração com CI/CD: na Integração Contínua (CI), cada alteração passa por verificações automáticas (compilação, testes, qualidade e segurança); na Entrega/Implantação Contínua (CD), após aprovação, a aplicação é publicada automaticamente.
 
-Automatize, teste, entregue — tudo dentro do GitHub. 🚀
+Explica o funcionamento com workflows escritos em YAML, organizados em jobs (blocos de trabalho) e steps (etapas sequenciais). Um exemplo prático com API Java + Spring Boot mostra como um push dispara a pipeline, que executa testes e análise de código, dando feedback imediato ao desenvolvedor.
+
+A tabela comparativa evidencia ganhos: testes e deploys automáticos, menor tempo de entrega e redução de erros manuais. Os benefícios incluem automação, maior qualidade, produtividade, colaboração padronizada, feedback rápido, integração nativa e suporte a múltiplas linguagens.
+
+A estrutura do workflow é detalhada: gatilho → jobs (ex.: baixar código, instalar dependências, testar, construir e publicar). Os testes são executados em runners isolados (ex.: Ubuntu) e, se falham, o status fica vermelho, bloqueando merges em branches protegidas e notificando a equipe.
+
+O GitHub Actions moderniza o desenvolvimento, tornando-o ágil, confiável e colaborativo, permitindo que equipes foquem em novas funcionalidades em vez de tarefas repetitivas. A mensagem final reforça: “Automatize, teste, entregue — tudo dentro do GitHub”.
