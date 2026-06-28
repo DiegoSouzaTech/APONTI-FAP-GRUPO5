@@ -297,6 +297,14 @@ Os Runners são as máquinas que realmente executam o código dos seus fluxos de
 </p>
 Se você for criar uma Action personalizada para disponibilizar no Marketplace do GitHub, a tecnologia padrão recomendada para desenvolvimento dessas extensões é o Node.js (JavaScript/TypeScript). O GitHub fornece kits de desenvolvimento (SDKs) oficiais focados em Node.js para interagir com as APIs deles.
 
+### 5. APIs REST e GraphQL
+ 
+<p align=center style="margin-top:1em;margin-bottom:1em;">
+  <img src="https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST API">
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL">
+</p>
+O GitHub Actions se comunica intensamente com o resto da plataforma por meio de APIs. Quando um evento acontece (como um `pull_request` ou um `push`), os gatilhos disparam requisições internas usando REST e GraphQL para coletar dados sobre o repositório, commits e usuários.
+
 ## 📝 Conclusão
 
 O GitHub Actions representa uma evolução significativa na forma como equipes de desenvolvimento organizam e automatizam seus processos. Ao longo deste projeto, exploramos como essa ferramenta permite configurar pipelines de CI/CD diretamente no repositório, eliminando a dependência de plataformas externas e simplificando o fluxo de trabalho.
